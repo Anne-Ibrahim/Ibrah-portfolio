@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Annah Ibrahim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Annah<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#growth">Growth</a></li>
+            <li><a href="#contact" class="btn-primary">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Annah Ibrahim</span>.</h1>
+                <p class="subtitle">Crafting Modern Digital Experiences.</p>
+                <p class="description">A UX/UI Designer & Developer focused on building intuitive, high-impact products
+                    through clean code and thoughtful design.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Figma"><i class="fab fa-figma"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Annah Ibrahim" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="image-container">
+                    <img src="project1.png" alt="Project1" class="card-img">
+                </div>
+                <div class="project-info">
+                    <h3>Project Alpha</h3>
+                    <p>A responsive e-commerce dashboard designed for seamless data visualization.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-python"></i> Python</span>
+                        <span><i class="fab fa-react"></i> React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="image-container">
+                    <img src="project2.png" alt="project2" class="card-img">
+                </div>
+                <div class="project-info">
+                    <h3>SaaS Platform</h3>
+                    <p>A B2B SaaS landing page focused on conversion and modern aesthetics.</p>
+                    <div class="tags">
+                        <span><i class="fab fa-js"></i> JS</span>
+                        <span><i class="fab fa-node"></i> Node</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="growth" class="growth">
+        <h2 class="section-title">Growth & Roadmap</h2>
+        <div class="growth-container">
+            <div class="roadmap">
+                <h3>2025 Roadmap</h3>
+                <ul class="timeline">
+                    <li>
+                        <span class="date">Jan</span>
+                        <p><strong>Completed UX Course</strong> - Advanced user research patterns.</p>
+                    </li>
+                    <li>
+                        <span class="date">Mar</span>
+                        <p><strong>Advanced Python</strong> - Mastering backend efficiency.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Skill Progress</h3>
+                <div class="skill-bar">
+                    <label>Python</label>
+                    <div class="progress-bg">
+                        <div class="progress-fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <label>UI Animation</label>
+                    <div class="progress-bg">
+                        <div class="progress-fill" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
